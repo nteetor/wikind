@@ -1,0 +1,17 @@
+Package: wikind
+Title: A Wiki for R
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Nathan", "Teetor", email = "nathanteetor@gmail.com", role = c("aut", "cre"),
+    person("Paul", "Teetor", email = "", role = "aut"),
+    person("Travis", "Byrum", email = "", role = "ctb"))
+Description: An R package which, when installed, immediately gives
+    the R user the functionality of a simple wiki.
+Depends:
+    R (>= 3.2.5)
+Imports:
+    httpuv
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat
